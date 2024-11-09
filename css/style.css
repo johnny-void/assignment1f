@@ -1,0 +1,122 @@
+html{
+    background-color:#0b0c10;
+    font-size:125%;
+    font-family: Trebuchet MS, sans-serif;
+}
+p, figcaption, caption, td, th, blockquote, ol li{
+    color: #c5c6c7;
+}
+header{
+    padding, margin: 0;
+    font-size:150%;
+    font-style:italic;
+    background-image:url(../images/bkrnd5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2{
+     color: #66fcf1;
+}
+h1{
+    font-size:larger;
+    margin: 0;
+    padding: 2em;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    width: 25%;
+    border: solid #45a29e 4px;
+    flex: 5;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border: solid #45a29e 4px;
+  padding:10px;
+  background-color:#0b0c10;
+}
+nav{
+    border-top:solid #45a29e 4px;
+    border-bottom:solid #45a29e 4px;
+}
+nav li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 6px;
+    justify-content: space-between;
+}
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+a:link{
+    text-decoration: none;
+    color: #c5c6c7;
+}
+a:visited{
+    color: #c5c6c7;
+    text-decoration: none;
+}
+a: active{
+    color: #c5c6c7;
+    text-decoration: none;
+}
+a:hover{
+    color: #66fcf1;
+}
+figure figcaption{
+    font-size: 75%;
+}
+figure{ /* flex */
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    flex: 5;
+}
+blockquote{
+    text-indent: 15%;
+    padding:5%;
+    font-style: italic;
+}
+p a:link{
+    text-decoration:underline;
+}
+table{
+    width: 35%;
+    margin: 5%;
+    padding:1px;
+    text-align:center;
+    border-top:solid #45a29e 2px;
+    border-bottom:solid #45a29e 2px;
+}
+tr, td{
+    padding: 4px;
+    border-bottom: solid #c5c6c7 2px;
+}
+th{
+     border-top:solid #c5c6c7 2px;
+     border-bottom: solid #c5c6c7 2px;
+}
+td:nth-last-of-type(odd), th:nth-last-of-type(odd){
+    color: #45a29e;
+}
+ol{
+    display:flex;
+    flex-direction: column;
+    flex:5;
+}
+#name{
+    color:#45a293;
+}
+.blue{
+    color:#66fcf1;
+}
